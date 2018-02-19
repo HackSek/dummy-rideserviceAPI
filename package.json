@@ -1,0 +1,35 @@
+{
+  "name": "dummy-api",
+  "version": "1.0.0",
+  "description": "a dummy REST api for  available rides near a particular user",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+
+    "node":"6.11.3",
+    "npm": "3.10.10"
+
+  },
+  "keywords": [],
+  "author": "Hachem",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackSek/dummy-rideserviceAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HackSek/dummy-rideserviceAPI/issues"
+  },
+  "homepage": "https://github.com/HackSek/dummy-rideserviceAPI#readme"
+}
